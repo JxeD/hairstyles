@@ -1,0 +1,194 @@
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background-color: #f2f2f2;
+  /* Soft gray background */
+  color: #333;
+  /* Dark gray text */
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  color: #333;
+  /* Dark gray headings */
+}
+
+a {
+  color: #007bff;
+  /* Blue link color */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styling */
+header {
+  background-color: #fff;
+  /* White header */
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow */
+  text-align: center;
+  /* Center align header content */
+}
+
+h1 {
+  font-size: 2.5rem;
+  /* Larger heading */
+  margin-bottom: 10px;
+}
+
+/* Gallery Styling */
+.gallery {
+  display: flex;
+  /* Use flexbox for gallery layout */
+  justify-content: space-around;
+  /* Distribute images evenly */
+  margin-top: 20px;
+  width: 100%;
+}
+
+.gallery img {
+  max-width: 160px;
+  /* Adjust image width as needed */
+  height: auto;
+  /* Maintain aspect ratio */
+  border-radius: 10px;
+  /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  /* More pronounced shadow */
+}
+
+/* Hero Section Styling */
+.hero {
+  background-color: #fff;
+  /* White hero section */
+  padding: 50px 0;
+  text-align: center;
+}
+
+.hero img {
+  max-width: 80%;
+  border-radius: 10px;
+  /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  /* More pronounced shadow */
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  /* Larger heading */
+  margin-bottom: 10px;
+}
+
+.hero p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #007bff;
+  /* Blue button */
+  color: #fff;
+  /* White text */
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  /* Rounded corners */
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  /* Smooth transition */
+}
+
+.button:hover {
+  background-color: #0056b3;
+  /* Darker blue on hover */
+}
+
+/* Hairstyle Section Styling */
+.hairstyle-section {
+  padding: 50px 0;
+}
+
+.hairstyle-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* Responsive grid */
+  gap: 20px;
+}
+
+.hairstyle {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.hairstyle img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* Call to Action Styling */
+.call-to-action {
+  background-color: #f8f9fa;
+  /* Light gray background */
+  padding: 50px 0;
+  text-align: center;
+}
+
+.call-to-action form {
+  display: inline-block;
+  /* Center the form */
+}
+
+.call-to-action input[type="email"] {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.call-to-action button[type="submit"] {
+  background-color: #007bff;
+  /* Blue button */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333;
+  /* Dark gray footer */
+  color: #fff;
+  /* White text */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Image Hover Animation */
+.gallery img {
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+  /* Zoom in slightly on hover */
+}
